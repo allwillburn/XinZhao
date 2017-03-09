@@ -211,7 +211,7 @@ OnTick(function (myHero)
 	        end
 
                 if XinZhaoMenu.LaneClear.E:Value() and Ready(_E) and ValidTarget(closeminion, 187) then
-	        	CastTargetSpell(target, _E)
+	        	CastTargetSpell(closeminion, _E)
 	        end
 
                 if XinZhaoMenu.LaneClear.Tiamat:Value() and ValidTarget(closeminion, 350) then
