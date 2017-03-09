@@ -203,7 +203,7 @@ OnTick(function (myHero)
       if Mix:Mode() == "LaneClear" then
       	  for _,closeminion in pairs(minionManager.objects) do
 	        if XinZhaoMenu.LaneClear.Q:Value() and Ready(_Q) and ValidTarget(closeminion, 600) then
-	        	CastTargetSpell(_Q)
+	        	CastSpell(_Q)
                 end
 
                 if XinZhaoMenu.LaneClear.W:Value() and Ready(_W) and ValidTarget(closeminion, 600) then
